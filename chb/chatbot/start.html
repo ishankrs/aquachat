@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Selection page</title>
+    <style>
+    
+      body {
+        background:url('https://cdn.midjourney.com/c0df114c-d2a4-42d6-a346-83640e3bb8b7/grid_0.png') no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+   -o-background-size: cover;
+  background-size: cover;
+        font-family: Arial, sans-serif;
+        text-align: center;
+      }
+      /* Styling for the buttons */
+      .button {
+        display: inline-block;
+        padding: 20px 40px;
+        margin: 20px;
+        font-size: 18px;
+        text-align: center;
+        text-decoration: none;
+        color: #fff;
+        background-color: #0091ea;
+        border-radius: 5px;
+        transition: background-color 0.2s ease-in-out;
+      }
+.watermark {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    color: #666; /* color of the text */
+    font-size: 37px; /* size of the text */
+    text-align:center;
+}
+
+.watermark:nth-child(1) {
+    animation: watermark1 5s linear infinite;
+}
+.watermark:nth-child(2) {
+    animation: watermark2 5s linear infinite;
+}
+/* Add more watermark lines here */
+.watermark:nth-child(30) {
+    animation: watermark30 5s linear infinite;
+}
+
+@keyframes watermark1 {
+    from {
+        transform: translate(-50%, -50%);
+    }
+    to {
+        transform: translate(50%, 50%);
+    }
+}
+@keyframes watermark2 {
+    from {
+        transform: translate(-95%, -95%);
+    }
+    to {
+        transform: translate(95%, 95%);
+    }
+}
+/* Add more keyframes here */
+@keyframes watermark3 {
+    from {
+        transform: translate(-1300%, -1300%);
+    }
+    to {
+        transform: translate(130%, 130%);
+    }
+}
+@keyframes watermark4 {
+    from {
+        transform: translate(-170%, -170%);
+    }
+    to {
+        transform: translate(170%, 170%);
+    }
+}
+@keyframes watermark5 {
+    from {
+        transform: translate(-200%, -200%);
+    }
+    to {
+        transform: translate(200%, 200%);
+    }
+}
+.watermark-line {
+    display: block;
+    margin-bottom: 10px;
+}
+
+
+      .divs{
+        -webkit-text-stroke-color: aliceblue;
+        color: aqua;
+      }
+	h1{
+	color:#fff;}
+      /* Add hover effect to the buttons */
+      .button:hover {
+        background-color: #0277bd;
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+   <divs> <h1>Please select your age or profession bracket</h1></divs>
+<div class="watermark-container">
+  <span class="watermark watermark-line">M.I.T.R.A</span>  <span class="watermark watermark-line">M.I.T.R.A</span>
+  <span class="watermark watermark-line">M.I.T.R.A</span>
+  <span class="watermark watermark-line">M.I.T.R.A</span>
+  <span class="watermark watermark-line">M.I.T.R.A</span>
+  <span class="watermark watermark-line">M.I.T.R.A</span>
+  <span class="watermark watermark-line">M.I.T.R.A</span>
+  <span class="watermark watermark-line">M.I.T.R.A</span>
+  <span class="watermark watermark-line">M.I.T.R.A</span>
+  <span class="watermark watermark-line">M.I.T.R.A</span>
+
+
+    <h1><a href="http://0.0.0.0:5001/" class="button">I am below 13</a></h1>
+  <h1>  <a>  </a></h1>
+    <h2> <a href="http://0.0.0.0:5002/" class="button">I am above 13</a></h2>
+    <a href="https://www.nal.usda.gov/farms-and-agricultural-production-systems/aquaculture-and-aquaponics" class="button">I am a farmer/enterperneur</a>
+  </body>
+</html>
