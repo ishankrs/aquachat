@@ -25,7 +25,7 @@ AI Based Chatbot
 5. You're done and let's chat with your Robot via browser.
 
 ## Screenshot
-![chatbot]
+![chatbot](https://github.com/ishankrs/aquachat/blob/a3ef075b8c7d000f5a4c0dd643500eaaa31bc2eb/Screenshot%202023-01-12%20at%208.54.51%20AM.png)
 ## Author
 
 Ishan kashyap
